@@ -1,0 +1,258 @@
+
+body {
+width: 100%;
+height: 100%;
+margin: 0 auto;
+}
+ul{
+	padding:0px!important;
+
+}
+.menu-principal {
+background-color:black;
+width: 100%;
+height:55px;
+}
+main,.content {
+margin: 0 auto;
+width:980px;
+position:relative;
+}
+.logo{
+	padding: 10px;
+	float:left;
+	width:70%;
+}
+.redes-sociais ul li {
+margin-left: 20px;
+display: inline-block;
+float: left;
+list-style: none;
+}
+.redes-sociais {
+width: 20%;
+float: right;
+}
+.header-2{
+	background-color:white;
+	width:980px;
+	margin: 0 auto;
+	padding:10px;
+}
+.menu-urls{
+height:80px;
+border-bottom: 3px solid black;
+}
+.menu ul li {
+	display: inline-block;
+	color: grey;
+	margin-left: 17px;
+}
+.menu ul li a:hover{
+	color:grey ;
+	border-bottom:1px solid black
+}
+.menu ul li a{
+	color:black;
+	font-size: 18px;
+	text-decoration:none;
+	text-transform: uppercase;
+	font-style:italic;
+}
+.menu{
+	width:90%;
+    float:left;
+    font-family: cursive;
+}
+.col-100{
+	width:100%;
+	float:left;
+	position:relative;
+}
+button.slick-prev {
+	font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    background-color: transparent;
+    background-image: url(anterior.png);
+    position: absolute;
+    z-index: 9;
+    top: 30%;
+    left: 3%;
+}
+button.slick-next{
+	font-size: 0px;
+    border: none;
+    height: 51px;
+    width: 25px;
+    background-color: transparent;
+    background-image: url(proximo.png);
+    position: absolute;
+    z-index: 9;
+    top: 30%;
+	right:3%
+}
+.slick-list {
+	width:100%!important;
+	height:80%
+}
+.slick-initialized{
+	overflow:hidden;
+}
+.slick-dots li button{
+	border: 5px solid white;
+	width:26px;
+	height:26px;
+	background:transparent;
+	border-radius:10%;
+	cursor:pointer;
+}
+.slick-dots{
+	margin:0 auto;
+	width:50%;
+	position:absolute;
+	left:43%;
+	top:90%;
+	
+	
+	
+
+}
+.slick-dots li{
+	padding-left:5px;
+	display:inline-block;
+}
+li.slick-active button{
+	background: black
+}
+.engsoft img{
+	height: 509px;
+    position: absolute;
+    top: 83px;
+    left: 0;
+	width: 317px;
+}
+.engsoft1 img {
+	height: 509px;
+    position: absolute;
+    top: 83px;
+    left: 1036px;
+    width: 330px;
+
+}
+.texto1 h1{
+	text-align: center;
+    color: black;
+    left: 393px;
+    font-size: 45;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 55px;
+}
+.texto1 p{
+	width: 40%;
+    position: absolute;
+    left: 395px;
+    top: 131px;
+    font-size: 16px;
+    font-family: arial;
+    line-height: 1.2;
+}
+div.vertical-line{
+	width: 20px;
+    background-color: black;
+    position: absolute;
+    left: 317px;
+    top: 83px;
+	height: 509px;
+}
+div.vertical-line2{
+	width: 20px;
+    background-color: black;
+    position: absolute;
+    left: 1016px;
+    top: 83px;
+	height: 509px;
+}
+div.vertical-line3{
+	position: absolute;
+    width: 695px;
+    left: 325px;
+    top: 525px;
+    height: 42px;
+}
+.img3x4 img{
+	position: absolute;
+    left: 349px;
+    width: 96px;
+    height: 123px;
+    top: 150px;}
+.videoeng{
+	position:absolute;
+	top:336px;
+	left:418px;
+}
+.textocurr{
+	text-align: left;
+    color: black;
+    left: 472px;
+    font-size: 15px;
+    position: absolute;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    top: 271px;
+}
+.textocurr h3{
+    font-size: 48px;
+    position: absolute;
+    top: -235px;
+    left: 86px;
+}
+}
+.textocurr p{
+	position: relative;
+    top: 74px;
+    left: 26px;
+    font-size: 17px;
+    font-family: italic;
+}
+.escol{
+    font-size: 17px;
+    position: absolute;
+    top: 231px;
+    left: 42px;
+    font-family: italic;
+}
+.intro{
+    position: absolute;
+    top: 136px;
+    left: 473px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.textocurr1{
+	position: absolute;
+    top: 409px;
+    left: 473px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 15px;
+}
+.textocurr1 h2{
+	font-size: 15px
+
+}
+.textocurr2{
+	position: absolute;
+	left: 473px;
+	font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+	font-size: 15px;
+	top:508px
+}
+.textocurr2 h2{
+	font-size: 15px
+}
+	
+
+}
+
+
